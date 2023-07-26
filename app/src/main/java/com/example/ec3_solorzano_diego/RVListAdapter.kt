@@ -3,6 +3,7 @@ package com.example.ec3_solorzano_diego
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.ec3_solorzano_diego.databinding.ItemFavoriteBinding
 import com.example.ec3_solorzano_diego.databinding.ItemResourceBinding
 import com.example.ec3_solorzano_diego.model.Cerveceria
 
@@ -22,11 +23,12 @@ class RVListAdapter(var cervecerias: List<Cerveceria>): RecyclerView.Adapter<Cer
 }
 class CerveceriaVH(private val binding: ItemResourceBinding): RecyclerView.ViewHolder(binding.root){
     fun bind(c: Cerveceria) {
-        binding.imageView.setImageResource(R.drawable.ic_logo)
+        binding.imageView.setImageResource(R.drawable.ic_beer)
         binding.txtName.text = c.name
         binding.txtBreweryType.text = c.brewery_type
         binding.txtCity.text = c.city
         binding.txtWebsiteUrl.text = c.website_url
+
 
     }
 }

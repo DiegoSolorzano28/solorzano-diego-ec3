@@ -6,9 +6,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ServiceInstance {
     //https://api.openbrewerydb.org/v1/breweries
-    //https://run.mocky.io/v3/11c4b2cd-f622-41ff-92e6-5eedc1068b7f
+    //https://api.openbrewerydb.org/v1/breweries/b54b16e1-ac3b-4bff-a11f-f7ae9ddc27e0
     private val retrofit = Retrofit.Builder()
-        .baseUrl("https://run.mocky.io/v3/")
+        .baseUrl("https://api.openbrewerydb.org/v1/")
         .client(OkHttpClient())
         .addConverterFactory(GsonConverterFactory.create())
         .build()

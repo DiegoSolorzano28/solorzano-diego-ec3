@@ -9,30 +9,30 @@ import com.example.ec3_solorzano_diego.model.ApiResponse
 import com.example.ec3_solorzano_diego.model.Cerveceria
 import com.example.ec3_solorzano_diego.model.getData
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
 class ListViewModel: ViewModel() {
-    val cerveceriaList: MutableLiveData<List<Cerveceria>> = MutableLiveData<List<Cerveceria>>()
-    val repository = CerveceriaRepository()
-
-    fun getCouponList(){
-        val data = getData()
-        cerveceriaList.value = data
-    }
+    private val _cerveceriaList = MutableLiveData<List<Cerveceria>?>()
+    private val repository:CerveceriaRepository = CerveceriaRepository()
+    val cerveceriaList: LiveData<List<Cerveceria>?>
+    get() = _cerveceriaList
 
     fun getCerveceriasFromService(){
-        viewModelScope.launch(Dispatchers.IO){
-            val response = repository.getCervecerias()
-            when(response){
+        GlobalScope.launch(Dispatchers.IO){
+
+            when(val response = repository.getCervecerias()){
 
                 is ApiResponse.Error -> {
 
                 }
                 is ApiResponse.Success -> {
-                    cerveceriaList.postValue(response.data.cervecerias)
+                    _cerveceriaList.postValue(response.data)
                 }
             }
         }
     }
+
+
 
 }

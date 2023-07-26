@@ -20,14 +20,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_end="217dp" />
+            app:layout_constraintGuide_end="150dp" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="140dp"
+            android:layout_height="200dp"
             android:contentDescription="@null"
-            android:src="@drawable/ic_logo"
+            android:src="@drawable/ic_beer"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline_middle"
@@ -48,16 +48,16 @@
 
             <TextView
                 android:id="@+id/txt_name"
-                android:layout_width="wrap_content"
+                android:layout_width="208dp"
                 android:layout_height="wrap_content"
+                android:minLines="2"
+                android:layout_marginRight="30dp"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:maxLines="1"
-                android:ellipsize="end"
-                tools:text="Cerveceria"/>
+                tools:text="Cerveceria" />
             <TextView
                 android:id="@+id/txt_brewery_type"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxLines="3"
@@ -68,9 +68,9 @@
                 android:layout_marginTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxLines="1"
+
                 android:ellipsize="end"
-                tools:text="Lima"/>/>
+                tools:text="Lima"/>
             <TextView
                 android:id="@+id/txt_website_url"
                 android:layout_marginTop="8dp"
@@ -81,7 +81,7 @@
                 android:maxLines="1"
                 android:ellipsize="end"
                 tools:text="example.com"/>
-            
+
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

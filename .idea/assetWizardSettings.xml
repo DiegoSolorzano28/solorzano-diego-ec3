@@ -28,8 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_logo" />
-                            <entry key="sourceFile" value="E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_beer" />
+                            <entry key="sourceFile" value="E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\beer-svgrepo-com (1).svg" />
                           </map>
                         </option>
                       </PersistentState>

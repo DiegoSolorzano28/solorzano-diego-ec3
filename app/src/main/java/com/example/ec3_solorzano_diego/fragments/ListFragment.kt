@@ -12,6 +12,7 @@ import com.example.ec3_solorzano_diego.R
 import com.example.ec3_solorzano_diego.RVListAdapter
 import com.example.ec3_solorzano_diego.databinding.FragmentListBinding
 import com.example.ec3_solorzano_diego.model.getData
+import okhttp3.internal.notify
 
 class ListFragment : Fragment() {
     private lateinit var binding: FragmentListBinding
@@ -37,9 +38,11 @@ class ListFragment : Fragment() {
         binding.rvList.adapter = adapter
         binding.rvList.layoutManager = GridLayoutManager(requireContext(), 1, RecyclerView.VERTICAL, false)
 
-        viewModel.cerveceriaList.observe(requireActivity()){
-            adapter.cervecerias = it
-            adapter.notifyDataSetChanged()
+        viewModel.cerveceriaList.observe(viewLifecycleOwner){ cerveceria ->
+            cerveceria?.let {
+                adapter.cervecerias = it
+                adapter.notifyDataSetChanged()
+            }
         }
         viewModel.getCerveceriasFromService()
 
