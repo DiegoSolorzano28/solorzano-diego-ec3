@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\item_resource.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\item_resource.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "com.example.ec3_solorzano_diego.app-mergeDebugResources-51:/layout/item_resource.xml",
+        "source": "com.example.ec3_solorzano_diego.app-main-54:/layout/item_resource.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\fragment_info.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.ec3_solorzano_diego.app-mergeDebugResources-51:/layout/activity_login.xml",
+        "source": "com.example.ec3_solorzano_diego.app-main-54:/layout/activity_login.xml"
+    }
+]

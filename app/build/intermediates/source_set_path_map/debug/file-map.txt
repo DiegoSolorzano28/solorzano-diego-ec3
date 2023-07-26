@@ -1,0 +1,55 @@
+com.example.ec3_solorzano_diego.app-constraintlayout-2.1.4-0 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\025e40e5e3609bd3efa3f036a5d22b49\transformed\constraintlayout-2.1.4\res
+com.example.ec3_solorzano_diego.app-fragment-1.6.0-1 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0676879da9c943f965c1d69223273dc0\transformed\fragment-1.6.0\res
+com.example.ec3_solorzano_diego.app-navigation-ui-2.6.0-2 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0a8d4818dd4549bd6877ca23c997e8a0\transformed\navigation-ui-2.6.0\res
+com.example.ec3_solorzano_diego.app-navigation-common-2.6.0-3 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c71e1854182a3697962bcf9e7c1f3f4\transformed\navigation-common-2.6.0\res
+com.example.ec3_solorzano_diego.app-profileinstaller-1.3.0-4 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\res
+com.example.ec3_solorzano_diego.app-navigation-runtime-ktx-2.6.0-5 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\15ce80a27181ebcca447892032c0d41f\transformed\navigation-runtime-ktx-2.6.0\res
+com.example.ec3_solorzano_diego.app-lifecycle-runtime-2.6.1-6 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\1833f6976db86d50e2a3fd1fbeaf79ad\transformed\lifecycle-runtime-2.6.1\res
+com.example.ec3_solorzano_diego.app-core-1.9.0-7 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\res
+com.example.ec3_solorzano_diego.app-window-1.0.0-8 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\res
+com.example.ec3_solorzano_diego.app-startup-runtime-1.1.1-9 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\res
+com.example.ec3_solorzano_diego.app-activity-ktx-1.6.1-10 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\28927f6857e898a647d0471ec1a157e8\transformed\activity-ktx-1.6.1\res
+com.example.ec3_solorzano_diego.app-cardview-1.0.0-11 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2984df1032e89510bdfd26769af41e54\transformed\cardview-1.0.0\res
+com.example.ec3_solorzano_diego.app-material-1.8.0-12 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2dffde985959670c432e1e6cfeae727b\transformed\material-1.8.0\res
+com.example.ec3_solorzano_diego.app-lifecycle-livedata-core-ktx-2.6.1-13 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\3b3f3be615cc71fba2f0a118b896ad8a\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.example.ec3_solorzano_diego.app-appcompat-1.6.1-14 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\3e0b6e4cd00ec1094432a441bef118ac\transformed\appcompat-1.6.1\res
+com.example.ec3_solorzano_diego.app-lifecycle-runtime-ktx-2.6.1-15 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\45fd603b3592e673d0b646aa9823cd15\transformed\lifecycle-runtime-ktx-2.6.1\res
+com.example.ec3_solorzano_diego.app-lifecycle-livedata-core-2.6.1-16 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\47e8d9aeabe663df59d94e0c0539b0d6\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.ec3_solorzano_diego.app-play-services-basement-18.1.0-17 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\49fcb3ceb3be55b434e37b5dd2313c3d\transformed\play-services-basement-18.1.0\res
+com.example.ec3_solorzano_diego.app-transition-1.4.1-18 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\4af274aa2f66714dda27e0331cbbd060\transformed\transition-1.4.1\res
+com.example.ec3_solorzano_diego.app-appcompat-resources-1.6.1-19 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\4c2683b641bcb95509fe2661b8712887\transformed\appcompat-resources-1.6.1\res
+com.example.ec3_solorzano_diego.app-navigation-fragment-ktx-2.6.0-20 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\5883be7d5f808f83abef068c7a5c5f45\transformed\navigation-fragment-ktx-2.6.0\res
+com.example.ec3_solorzano_diego.app-lifecycle-process-2.6.1-21 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\5bf1eea8f186f8e27bd640a2463dd25b\transformed\lifecycle-process-2.6.1\res
+com.example.ec3_solorzano_diego.app-activity-1.6.1-22 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\63d55c86cb8482ee13f8077fa47139fb\transformed\activity-1.6.1\res
+com.example.ec3_solorzano_diego.app-savedstate-ktx-1.2.1-23 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\721629c8aa9747b25acd3b7f3697eb87\transformed\savedstate-ktx-1.2.1\res
+com.example.ec3_solorzano_diego.app-lifecycle-viewmodel-ktx-2.6.1-24 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\77ba9ed35996b747b1337e47c6473f5d\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+com.example.ec3_solorzano_diego.app-slidingpanelayout-1.2.0-25 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\78ec12f86e6aa9035b7e03b174da6410\transformed\slidingpanelayout-1.2.0\res
+com.example.ec3_solorzano_diego.app-core-runtime-2.2.0-26 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\7feb3eaadf90aa8f8196b5264916c1c1\transformed\core-runtime-2.2.0\res
+com.example.ec3_solorzano_diego.app-navigation-common-ktx-2.6.0-27 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\814ccfa920a13ac0c73fa2ebb24efafe\transformed\navigation-common-ktx-2.6.0\res
+com.example.ec3_solorzano_diego.app-lifecycle-viewmodel-savedstate-2.6.1-28 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\9fdce8e3f57a020ee30475821ee7959e\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.ec3_solorzano_diego.app-viewpager2-1.0.0-29 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\a17c8df8eff5fd91d68a3a6b4deec79e\transformed\viewpager2-1.0.0\res
+com.example.ec3_solorzano_diego.app-recyclerview-1.1.0-30 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\a50d5f9a10dedc59c5b792f7af812331\transformed\recyclerview-1.1.0\res
+com.example.ec3_solorzano_diego.app-coordinatorlayout-1.1.0-31 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\a77019fb66b9b43109cb59c17c3025d7\transformed\coordinatorlayout-1.1.0\res
+com.example.ec3_solorzano_diego.app-drawerlayout-1.1.1-32 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\a7953ff37e6307819cfcc0d1ced70d4d\transformed\drawerlayout-1.1.1\res
+com.example.ec3_solorzano_diego.app-emoji2-1.2.0-33 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\res
+com.example.ec3_solorzano_diego.app-fragment-ktx-1.6.0-34 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\aff01600c1d980e2dcf810ae394440e4\transformed\fragment-ktx-1.6.0\res
+com.example.ec3_solorzano_diego.app-core-common-2.0.2-35 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\b135e5a4ae4c9b75895a0ba3815484e1\transformed\core-common-2.0.2\res
+com.example.ec3_solorzano_diego.app-lifecycle-viewmodel-2.6.1-36 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\bec8c95e9291e1e68ffc00ced8a76ebd\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.ec3_solorzano_diego.app-navigation-dynamic-features-fragment-2.6.0-37 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\beef56a819d02d0fcebe45e36c9d5800\transformed\navigation-dynamic-features-fragment-2.6.0\res
+com.example.ec3_solorzano_diego.app-lifecycle-livedata-2.6.1-38 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\c4d243dee916626bb3bac89a9121d6b5\transformed\lifecycle-livedata-2.6.1\res
+com.example.ec3_solorzano_diego.app-core-ktx-1.9.0-39 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\c9649cddbeea89f1e01c434edd8f97a5\transformed\core-ktx-1.9.0\res
+com.example.ec3_solorzano_diego.app-navigation-ui-ktx-2.6.0-40 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\d551a8244b7bf411755d124cb97f4dcd\transformed\navigation-ui-ktx-2.6.0\res
+com.example.ec3_solorzano_diego.app-savedstate-1.2.1-41 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\dcca37a571dacc9c9fe18f412d71f752\transformed\savedstate-1.2.1\res
+com.example.ec3_solorzano_diego.app-navigation-fragment-2.6.0-42 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\e3fc20f6ec89cc753398c5d637b9d0b7\transformed\navigation-fragment-2.6.0\res
+com.example.ec3_solorzano_diego.app-annotation-experimental-1.3.0-43 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\e409287bb049575d98acab4a0c1012b6\transformed\annotation-experimental-1.3.0\res
+com.example.ec3_solorzano_diego.app-navigation-runtime-2.6.0-44 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\efb47584d6784d8fd766487c7c6fc3cd\transformed\navigation-runtime-2.6.0\res
+com.example.ec3_solorzano_diego.app-emoji2-views-helper-1.2.0-45 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\fc2b2bcfaf7d5ebe3f50be3612f05f40\transformed\emoji2-views-helper-1.2.0\res
+com.example.ec3_solorzano_diego.app-navigation-dynamic-features-runtime-2.6.0-46 C:\Users\DIEGO-PC\.gradle\caches\transforms-3\fd071228a905d965e3e48071fd70e797\transformed\navigation-dynamic-features-runtime-2.6.0\res
+com.example.ec3_solorzano_diego.app-pngs-47 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\build\generated\res\pngs\debug
+com.example.ec3_solorzano_diego.app-resValues-48 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\build\generated\res\resValues\debug
+com.example.ec3_solorzano_diego.app-rs-49 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\build\generated\res\rs\debug
+com.example.ec3_solorzano_diego.app-packageDebugResources-50 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.ec3_solorzano_diego.app-packageDebugResources-51 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.ec3_solorzano_diego.app-merged_res-52 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\build\intermediates\merged_res\debug
+com.example.ec3_solorzano_diego.app-debug-53 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\debug\res
+com.example.ec3_solorzano_diego.app-main-54 E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\res

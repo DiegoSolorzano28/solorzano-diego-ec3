@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ec3_solorzano_diego"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission
+12-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:6:5-8:38
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:7:9-65
+14        android:maxSdkVersion="32" />
+14-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:8:9-35
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.ec3_solorzano_diego.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.ec3_solorzano_diego.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:9:5-30:19
+23        android:allowBackup="true"
+23-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:11:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:12:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:14:9-41
+31        android:supportsRtl="true"
+31-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:15:9-35
+32        android:theme="@style/Theme.EC3_Solorzano_Diego" >
+32-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:16:9-57
+33        <activity
+33-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:18:9-26:20
+34            android:name="com.example.ec3_solorzano_diego.LoginActivity"
+34-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:19:13-42
+35            android:exported="true" >
+35-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:20:13-36
+36            <intent-filter>
+36-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:21:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:22:17-69
+37-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:22:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:24:17-77
+39-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:27:9-29:39
+43            android:name="com.example.ec3_solorzano_diego.MainActivity"
+43-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:28:13-41
+44            android:exported="true" />
+44-->E:\IDAT\IDAT 6to ciclo\DESARROLLO DE APLICACIONES MOVILES 2\Proyectos\EC3_Solorzano_Diego\app\src\main\AndroidManifest.xml:29:13-36
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+48            android:authorities="com.example.ec3_solorzano_diego.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\5bf1eea8f186f8e27bd640a2463dd25b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\5bf1eea8f186f8e27bd640a2463dd25b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\5bf1eea8f186f8e27bd640a2463dd25b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+57-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+58                android:value="androidx.startup" />
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+59        </provider>
+60
+61        <meta-data
+61-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\49fcb3ceb3be55b434e37b5dd2313c3d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+62            android:name="com.google.android.gms.version"
+62-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\49fcb3ceb3be55b434e37b5dd2313c3d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\49fcb3ceb3be55b434e37b5dd2313c3d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+64
+65        <uses-library
+65-->[androidx.window:window:1.0.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+66            android:name="androidx.window.extensions"
+66-->[androidx.window:window:1.0.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+68        <uses-library
+68-->[androidx.window:window:1.0.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+69            android:name="androidx.window.sidecar"
+69-->[androidx.window:window:1.0.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+71
+72        <receiver
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+74            android:directBootAware="false"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+75            android:enabled="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+76            android:exported="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+77            android:permission="android.permission.DUMP" >
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+89            </intent-filter>
+90        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+91        <activity
+91-->[com.google.android.play:core-common:2.0.2] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\b135e5a4ae4c9b75895a0ba3815484e1\transformed\core-common-2.0.2\AndroidManifest.xml:14:9-18:65
+92            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+92-->[com.google.android.play:core-common:2.0.2] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\b135e5a4ae4c9b75895a0ba3815484e1\transformed\core-common-2.0.2\AndroidManifest.xml:15:13-93
+93            android:exported="false"
+93-->[com.google.android.play:core-common:2.0.2] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\b135e5a4ae4c9b75895a0ba3815484e1\transformed\core-common-2.0.2\AndroidManifest.xml:16:13-37
+94            android:stateNotNeeded="true"
+94-->[com.google.android.play:core-common:2.0.2] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\b135e5a4ae4c9b75895a0ba3815484e1\transformed\core-common-2.0.2\AndroidManifest.xml:17:13-42
+95            android:theme="@style/Theme.PlayCore.Transparent" />
+95-->[com.google.android.play:core-common:2.0.2] C:\Users\DIEGO-PC\.gradle\caches\transforms-3\b135e5a4ae4c9b75895a0ba3815484e1\transformed\core-common-2.0.2\AndroidManifest.xml:18:13-62
+96    </application>
+97
+98</manifest>
