@@ -67,7 +67,8 @@
         android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_email">
+        app:layout_constraintTop_toBottomOf="@+id/til_email"
+        app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -79,10 +80,13 @@
 
     <Button
         android:id="@+id/btnLogin"
+        style="@style/Widget.Material3.Button.TextButton.Icon"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Login"
+        android:text="Iniciar Sesión"
+        android:textSize="20sp"
+        app:icon="@drawable/ic_login"
         android:backgroundTint="@color/md_theme_light_tertiary"
         android:enabled="false"
         app:layout_constraintEnd_toEndOf="@+id/til_password"
@@ -90,6 +94,35 @@
         app:layout_constraintStart_toStartOf="@+id/til_password"
         app:layout_constraintTop_toBottomOf="@+id/til_password" />
 
+    <Button
+        android:id="@+id/btn_google"
+        style="@style/Widget.Material3.Button.TextButton.Icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/md_theme_light_onPrimary"
+        android:text="Google"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_google"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        style="@style/Widget.Material3.Button.TonalButton.Icon"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        app:icon="@drawable/ic_registrar"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/md_theme_light_tertiary"
+        android:text="Registrarse"
+        app:layout_constraintEnd_toEndOf="@+id/btn_google"
+        app:layout_constraintStart_toStartOf="@+id/btn_google"
+        app:layout_constraintTop_toBottomOf="@+id/btn_google" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

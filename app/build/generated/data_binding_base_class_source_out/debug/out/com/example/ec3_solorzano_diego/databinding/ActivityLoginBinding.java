@@ -24,7 +24,13 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnGoogle;
+
+  @NonNull
   public final Button btnLogin;
+
+  @NonNull
+  public final Button btnSignUp;
 
   @NonNull
   public final Guideline guidelineMediumHorizonal;
@@ -41,12 +47,15 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final TextInputLayout tilPassword;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnGoogle,
+      @NonNull Button btnLogin, @NonNull Button btnSignUp,
       @NonNull Guideline guidelineMediumHorizonal, @NonNull ImageView imgLogo,
       @NonNull TextView textView, @NonNull TextInputLayout tilEmail,
       @NonNull TextInputLayout tilPassword) {
     this.rootView = rootView;
+    this.btnGoogle = btnGoogle;
     this.btnLogin = btnLogin;
+    this.btnSignUp = btnSignUp;
     this.guidelineMediumHorizonal = guidelineMediumHorizonal;
     this.imgLogo = imgLogo;
     this.textView = textView;
@@ -81,9 +90,21 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_google;
+      Button btnGoogle = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoogle == null) {
+        break missingId;
+      }
+
       id = R.id.btnLogin;
       Button btnLogin = ViewBindings.findChildViewById(rootView, id);
       if (btnLogin == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_sign_up;
+      Button btnSignUp = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignUp == null) {
         break missingId;
       }
 
@@ -117,7 +138,7 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin,
+      return new ActivityLoginBinding((ConstraintLayout) rootView, btnGoogle, btnLogin, btnSignUp,
           guidelineMediumHorizonal, imgLogo, textView, tilEmail, tilPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);

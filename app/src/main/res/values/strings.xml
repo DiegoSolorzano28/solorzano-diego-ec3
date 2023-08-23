@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">CERVECERIA</string>
+    <string name="app_name">CERVECERIA EF</string>
+    <string name="version">Version 1.0.0</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Soy Diego Solórzano Giudiche. Cervecerías es la aplicación perfecta para los amantes de la cerveza. Con nuestra app, podrás descubrir una amplia selección de cervecerías artesanales y tradicionales en tu área local. Navega por la lista de cervecerías y encuentra tus favoritas con facilidad. Además, te proporcionamos la ubicación exacta de cada cervecería para que puedas planificar tus visitas y disfrutar de la experiencia completa.</string>
+    <string name="web_client_id">113036827314884542652</string>
 </resources>

@@ -9,7 +9,11 @@
         android:id="@+id/favoriteFragment"
         android:name="com.example.ec3_solorzano_diego.fragments.FavoriteFragment"
         android:label="fragment_favorite"
-        tools:layout="@layout/fragment_favorite" />
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/infoFragment"
         android:name="com.example.ec3_solorzano_diego.fragments.InfoFragment"
@@ -19,5 +23,23 @@
         android:id="@+id/listFragment"
         android:name="com.example.ec3_solorzano_diego.fragments.ListFragment"
         android:label="fragment_list"
-        tools:layout="@layout/fragment_list" />
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.ec3_solorzano_diego.fragments.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="cerveceria"
+            app:argType="com.example.ec3_solorzano_diego.model.Cerveceria" />
+    </fragment>
+    <fragment
+        android:id="@+id/firebaseListFragment"
+        android:name="com.example.ec3_solorzano_diego.fragments.FirebaseListFragment"
+        android:label="fragment_firebase_list"
+        tools:layout="@layout/fragment_firebase_list" />
 </navigation>

@@ -41,12 +41,12 @@ public final class ItemResourceBinding implements ViewBinding {
   public final TextView txtName;
 
   @NonNull
-  public final TextView txtWebsiteUrl;
+  public final TextView txtPhone;
 
   private ItemResourceBinding(@NonNull CardView rootView, @NonNull Guideline guidelineMiddle,
       @NonNull ImageView imageView, @NonNull LinearLayout linearLayout,
       @NonNull TextView txtBreweryType, @NonNull TextView txtCity, @NonNull TextView txtName,
-      @NonNull TextView txtWebsiteUrl) {
+      @NonNull TextView txtPhone) {
     this.rootView = rootView;
     this.guidelineMiddle = guidelineMiddle;
     this.imageView = imageView;
@@ -54,7 +54,7 @@ public final class ItemResourceBinding implements ViewBinding {
     this.txtBreweryType = txtBreweryType;
     this.txtCity = txtCity;
     this.txtName = txtName;
-    this.txtWebsiteUrl = txtWebsiteUrl;
+    this.txtPhone = txtPhone;
   }
 
   @Override
@@ -120,14 +120,14 @@ public final class ItemResourceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txt_website_url;
-      TextView txtWebsiteUrl = ViewBindings.findChildViewById(rootView, id);
-      if (txtWebsiteUrl == null) {
+      id = R.id.txt_phone;
+      TextView txtPhone = ViewBindings.findChildViewById(rootView, id);
+      if (txtPhone == null) {
         break missingId;
       }
 
       return new ItemResourceBinding((CardView) rootView, guidelineMiddle, imageView, linearLayout,
-          txtBreweryType, txtCity, txtName, txtWebsiteUrl);
+          txtBreweryType, txtCity, txtName, txtPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,34 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\item_resource.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\item_resource.xml"
     },
     {
-        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\item_resource.xml",
-        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\item_resource.xml"
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\fragment_info.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\fragment_info.xml"
     },
     {
-        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\fragment_favorite.xml",
-        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\fragment_favorite.xml"
+        "merged": "com.example.ec3_solorzano_diego.app-mergeDebugResources-62:/layout/activity_login.xml",
+        "source": "com.example.ec3_solorzano_diego.app-main-65:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\fragment_list.xml",
-        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\fragment_list.xml"
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\activity_add_cerveceria.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\activity_add_cerveceria.xml"
     },
     {
-        "merged": "com.example.ec3_solorzano_diego.app-mergeDebugResources-51:/layout/item_favorite.xml",
-        "source": "com.example.ec3_solorzano_diego.app-main-54:/layout/item_favorite.xml"
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\item_favorite.xml",
-        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\item_favorite.xml"
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\fragment_info.xml",
-        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\fragment_info.xml"
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\fragment_firebase_list.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\fragment_firebase_list.xml"
     },
     {
-        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-51:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-54:\\layout\\activity_login.xml"
+        "merged": "com.example.ec3_solorzano_diego.app-mergeDebugResources-62:/layout/fragment_info.xml",
+        "source": "com.example.ec3_solorzano_diego.app-main-65:/layout/fragment_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-mergeDebugResources-62:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\DIEGO-PC\\.gradle\\daemon\\7.5\\com.example.ec3_solorzano_diego.app-main-65:\\layout\\fragment_detail.xml"
     }
 ]

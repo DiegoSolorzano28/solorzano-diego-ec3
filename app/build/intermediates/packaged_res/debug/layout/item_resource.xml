@@ -72,7 +72,7 @@
                 android:ellipsize="end"
                 tools:text="Lima"/>
             <TextView
-                android:id="@+id/txt_website_url"
+                android:id="@+id/txt_phone"
                 android:layout_marginTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                 android:textStyle="bold"
                 android:maxLines="1"
                 android:ellipsize="end"
-                tools:text="example.com"/>
+                tools:text="987654321"/>
 
         </LinearLayout>
 

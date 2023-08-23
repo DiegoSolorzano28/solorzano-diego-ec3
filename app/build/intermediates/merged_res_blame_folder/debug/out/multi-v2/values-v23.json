@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-50:/values-v23/values-v23.xml",
+            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-61:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\2dffde985959670c432e1e6cfeae727b\\transformed\\material-1.8.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\04aecae692d7188b60ebb7ce2681a097\\transformed\\material-1.8.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\3e0b6e4cd00ec1094432a441bef118ac\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\dde29300498dcf7143a580f06feca9a5\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\2984df1032e89510bdfd26769af41e54\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\63f5df45051af5d4338040cc9673b8ab\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

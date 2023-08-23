@@ -20,12 +20,12 @@ public final class FragmentFavoriteBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView rvFavorite;
+  public final RecyclerView rvList;
 
   private FragmentFavoriteBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView rvFavorite) {
+      @NonNull RecyclerView rvList) {
     this.rootView = rootView;
-    this.rvFavorite = rvFavorite;
+    this.rvList = rvList;
   }
 
   @Override
@@ -55,13 +55,13 @@ public final class FragmentFavoriteBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.rv_favorite;
-      RecyclerView rvFavorite = ViewBindings.findChildViewById(rootView, id);
-      if (rvFavorite == null) {
+      id = R.id.rv_list;
+      RecyclerView rvList = ViewBindings.findChildViewById(rootView, id);
+      if (rvList == null) {
         break missingId;
       }
 
-      return new FragmentFavoriteBinding((ConstraintLayout) rootView, rvFavorite);
+      return new FragmentFavoriteBinding((ConstraintLayout) rootView, rvList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

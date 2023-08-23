@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-50:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-61:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\2dffde985959670c432e1e6cfeae727b\\transformed\\material-1.8.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\04aecae692d7188b60ebb7ce2681a097\\transformed\\material-1.8.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

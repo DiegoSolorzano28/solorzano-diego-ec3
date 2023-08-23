@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-50:/values-port/values-port.xml",
+            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-61:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\3e0b6e4cd00ec1094432a441bef118ac\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\dde29300498dcf7143a580f06feca9a5\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

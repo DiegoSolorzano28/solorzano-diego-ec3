@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-50:/values-v16/values-v16.xml",
+            "outputFile": "com.example.ec3_solorzano_diego.app-mergeDebugResources-61:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\3e0b6e4cd00ec1094432a441bef118ac\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\904c2e44e8b31b3c4d621ffdd412f0eb\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\dde29300498dcf7143a580f06feca9a5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DIEGO-PC\\.gradle\\caches\\transforms-3\\24c8031572ced1a9ec505ef2513af626\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

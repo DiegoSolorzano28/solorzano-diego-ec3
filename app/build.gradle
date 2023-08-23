@@ -1,6 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+
+    id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs'
+
+    id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -42,11 +50,19 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation(platform("com.google.firebase:firebase-bom:32.2.2"))//
+    implementation("com.google.firebase:firebase-auth-ktx")
+    //implementation 'com.google.firebase:firebase-auth:21.0.3' se quito en clase
+    implementation('com.google.firebase:firebase-firestore-ktx')
+    implementation("com.google.android.gms:play-services-auth:20.6.0")
 
     //navigation
     implementation "androidx.navigation:navigation-fragment-ktx:2.6.0"
     implementation "androidx.navigation:navigation-ui-ktx:2.6.0"
     implementation "androidx.navigation:navigation-dynamic-features-fragment:2.6.0"
+    implementation 'com.google.firebase:firebase-firestore:24.1.1'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.2.1'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
@@ -60,4 +76,14 @@ dependencies {
 
     //lifecycle
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+
+    // room
+    implementation 'androidx.room:room-runtime:2.5.2'
+    annotationProcessor "androidx.room:room-compiler:2.5.2"
+    kapt "androidx.room:room-compiler:2.5.2"
+    implementation 'androidx.room:room-ktx:2.5.2'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+
 }

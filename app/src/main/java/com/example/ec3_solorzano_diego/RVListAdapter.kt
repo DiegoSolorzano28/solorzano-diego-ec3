@@ -3,14 +3,13 @@ package com.example.ec3_solorzano_diego
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.ec3_solorzano_diego.databinding.ItemFavoriteBinding
 import com.example.ec3_solorzano_diego.databinding.ItemResourceBinding
 import com.example.ec3_solorzano_diego.model.Cerveceria
 
-class RVListAdapter(var cervecerias: List<Cerveceria>): RecyclerView.Adapter<CerveceriaVH>() {
+class RVListAdapter(var cervecerias: List<Cerveceria>, val onClick: (Cerveceria) -> Unit): RecyclerView.Adapter<CerveceriaVH>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CerveceriaVH {
         val binding = ItemResourceBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return CerveceriaVH(binding)
+        return CerveceriaVH(binding, onClick)
     }
 
 
@@ -21,13 +20,16 @@ class RVListAdapter(var cervecerias: List<Cerveceria>): RecyclerView.Adapter<Cer
     }
 
 }
-class CerveceriaVH(private val binding: ItemResourceBinding): RecyclerView.ViewHolder(binding.root){
+class CerveceriaVH(private val binding: ItemResourceBinding, val onClick: (Cerveceria) -> Unit): RecyclerView.ViewHolder(binding.root){
     fun bind(c: Cerveceria) {
         binding.imageView.setImageResource(R.drawable.ic_beer)
         binding.txtName.text = c.name
         binding.txtBreweryType.text = c.brewery_type
         binding.txtCity.text = c.city
-        binding.txtWebsiteUrl.text = c.website_url
+        binding.txtPhone.text = c.phone
+        binding.root.setOnClickListener{
+            onClick(c)
+        }
 
 
     }
